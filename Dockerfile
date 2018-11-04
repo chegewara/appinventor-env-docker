@@ -3,7 +3,7 @@ FROM ubuntu:15.10
 # Build with
 #    docker build -t <your_name>/app-inventor-environment .
 
-RUN apt-get update
+RUN apt-get update -y
 
 RUN apt-get install -y curl unzip
 
